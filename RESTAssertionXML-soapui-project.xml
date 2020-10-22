@@ -9,5 +9,5 @@ def holder=new XmlHolder(response)
 def exp_type=context.getTestCase().getPropertyValue("type")
 assert exp_type==holder.getNodeValue("//PlaceSearchResponse/result[3]/type[1]")</scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
   <con:entry key="query" value="restaurants in Sydney"/>
-  <con:entry key="key" value="AIzaSyBM0IMDBh40A4UH6t04UPiPNKVGRDUkS7Q"/>
+  <con:entry key="key" value=""/>
 </con:parameters><con:parameterOrder><con:entry>query</con:entry><con:entry>key</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>type</con:name><con:value>restaurant</con:value></con:property></con:properties></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>key</con:name><con:value/></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
